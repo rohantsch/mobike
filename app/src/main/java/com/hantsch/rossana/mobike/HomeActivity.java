@@ -192,20 +192,38 @@ public class HomeActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        Intent intent = null;
+        boolean cerrar_session = false;
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            cerrar_session = false;
+            intent = new Intent(HomeActivity.this, PerfilActivity.class);
+
         } else if (id == R.id.nav_gallery) {
+            cerrar_session = false;
+            intent = new Intent(HomeActivity.this, RecargarSaldoActivity .class);
+
+        } else if(id == R.id.mis_bikes){
+            cerrar_session = false;
+            intent = new Intent(HomeActivity.this, MisBikesActivity.class);
 
         } else if (id == R.id.nav_share) {
+            cerrar_session = false;
+            intent = new Intent(HomeActivity.this, SettingsActivity.class);
 
         } else if (id == R.id.nav_send) {
-
+            cerrar_session = true;
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
+        if(cerrar_session){
+            finish();
+            return true;
+        }else {
+            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+            drawer.closeDrawer(GravityCompat.START);
+            startActivity(intent);
+            return true;
+        }
     }
 
     @Override

@@ -14,7 +14,7 @@
         completions."
     </string>
     <string name="title_activity_map">MapActivity</string>
-    <string name="title_activity_home">MoBike</string>
+    <string name="title_activity_home">MoBike | Saldo : $ 10.500</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Rossana Hantsch</string>
@@ -23,4 +23,81 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_test_map">Map</string>
     <string name="title_activity_scanner">ScannerActivity</string>
+    <string name="title_activity_registrar_usuario">RegistrarUsuarioActivity</string>
+    <string name="title_activity_mis_bikes">Mis Bikes </string>
+    <string name="title_activity_crear_bike">Crear Bike</string>
+    <string name="title_activity_recargar_saldo">Saldo $10.5000</string>
+    <string name="title_activity_perfil">Mis datos</string>
+    <string name="title_activity_settings">Configuraciones</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Habilitar recomendaciones</string>
+    <string name="pref_description_social_recommendations">Recomendaciones basadas en tus contactos
+    </string>
+
+    <string name="pref_title_display_name">Nombre</string>
+    <string name="pref_default_display_name">Rossana Hantsch</string>
+
+    <string name="pref_title_add_friends_to_messages">Agregar amigos a los mensajes</string>
+    <string-array name="pref_example_list_titles">
+        <item>Siempre</item>
+        <item>Cuando sea posible</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Sincronizaciones</string>
+
+    <string name="pref_title_sync_frequency">Frecuencia de sincronizacion</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>3 hora</item>
+        <item>6 hora</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">Configuraciones de sincronizacion</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notificaciones</string>
+
+    <string name="pref_title_new_message_notifications">Nuevos mensajes</string>
+
+    <string name="pref_title_ringtone">Tono</string>
+    <string name="pref_ringtone_silent">Silencio</string>
+
+    <string name="pref_title_vibrate">Vibracion</string>
 </resources>

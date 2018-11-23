@@ -8,6 +8,12 @@
             android:id="@+id/nav_camera"
             android:icon="@android:drawable/ic_menu_edit"
             android:title="Mis datos" />
+
+        <item
+            android:id="@+id/mis_bikes"
+            android:icon="@mipmap/ic_launcher_bike"
+            android:title="Mis bikes" />
+
         <item
             android:id="@+id/nav_gallery"
             android:icon="@android:drawable/ic_menu_search"

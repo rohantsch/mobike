@@ -69,7 +69,58 @@
             android:name=".ScannerActivity"
             android:label="@string/title_activity_scanner"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".BarcodeCaptureActivity"></activity>
+        <activity
+            android:name=".RegistrarUsuarioActivity"
+            android:label="@string/title_activity_registrar_usuario"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hantsch.rossana.mobike.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".MisBikesActivity"
+            android:label="@string/title_activity_mis_bikes"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hantsch.rossana.mobike.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".CrearBikeActivity"
+            android:label="@string/title_activity_crear_bike"
+            android:parentActivityName=".MisBikesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hantsch.rossana.mobike.MisBikesActivity" />
+        </activity>
+        <activity
+            android:name=".RecargarSaldoActivity"
+            android:label="@string/title_activity_recargar_saldo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hantsch.rossana.mobike.MisBikesActivity" />
+        </activity>
+        <activity
+            android:name=".PerfilActivity"
+            android:label="@string/title_activity_perfil"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hantsch.rossana.mobike.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hantsch.rossana.mobike.HomeActivity" />
+        </activity>
     </application>
 
 </manifest>
